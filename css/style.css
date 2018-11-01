@@ -1,0 +1,179 @@
+body{
+  background-color: black;
+}
+
+.gallery_menu {
+  padding: 0;
+  position: fixed;
+  background: black;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  background-color: black;
+}
+
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  color: grey;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 200px;
+  display: inline-block;
+}
+
+#Home{
+  background-attachment: fixed;
+  background-image: url('../img/bg_group.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#About{
+  background-color: black;
+  color: white;
+  align-content: left;
+  margin-bottom: 250px;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 24px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.about_text{
+  margin-top: 10px;
+  height: 500px;
+  width: 650px;
+  border: solid white 1px;
+}
+
+#rig {
+    max-width: 100%;
+    margin:0 auto;
+    padding-top: 40px;
+    font-size: 12px;
+    list-style:none;
+    background-color:#000;
+}
+
+#rig li{
+  display: inline-block;
+  width: 14%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rig-cell {
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+        
+.rig-img {
+    display: block;
+    width: 100%;
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity: 0.95;
+    line-height: 18px;
+}
+
+.rig-text {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    top: 50%;
+    color: white;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all .3s;
+}
+#rig li:hover .rig-text {
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
+
+#Disco{
+  background-image: url('../img/bg_disco.png');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 15px;
+  height: 850px;
+}
+
+h2{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  color: grey;
+}
+
+h3{
+  margin-left: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+}
+
+h4{
+  margin-left: 30px;
+  width: 400px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #F2A8E8;
+  padding-bottom: 17px;
+}
+
+
